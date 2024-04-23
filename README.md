@@ -21,28 +21,14 @@
 |--dataset
     |--train
       |-- images
-          |-- 000000.jpg
-          |-- 000001.jpg
-                .
-                .
-          |-- xxxxxx.jpg
       |-- labels
-          |-- 000000.txt
-          |-- 000001.txt
-                .
-                .
-          |-- xxxxxx.txt
-    |--valid
+
+    |--test
       |-- images
-          |-- 100000.jpg
-          |-- 100001.jpg
-                .
-                .
-          |-- xxxxxx.jpg
       |-- labels
-          |-- 100000.txt
-          |-- 100001.txt
-                .
-                .
-      |-- xxxxxx.txt
+
+    |--val
+      |-- images
+      |-- labels
+
 ```
