@@ -1,34 +1,8 @@
-# textDetection use YOLOv8
-## Training with Yolov8
-    - Tham số training
-    - Kích thước 1024
-    - Agument: Gộp các ảnh lại với nhau
-
-## Đánh giá
-    - Mectric: mAp95
-
-## So sánh version
-    - Precision
-
-## Test
-    - Hiển thị từ 50 - 100 ảnh.
-    - Xây dựng biểu đồ
-## 1. Dataset
-
-- Cấu trúc thư mục
+Dự án này sử dụng YOLOv8 để huấn luyện mô hình nhận diện văn bản. Mô hình được áp dụng vào việc số hóa tài liệu sau này
+# Run
+## Cài các thư viện 
+```
+pip install -r requirements.txt
 
 ```
-|--dataset
-    |--train
-      |-- images
-      |-- labels
-
-    |--test
-      |-- images
-      |-- labels
-
-    |--val
-      |-- images
-      |-- labels
-
-```
+Làm theo các bước ở notebook main.ipynb
