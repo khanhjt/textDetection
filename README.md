@@ -43,5 +43,5 @@ Làm theo các bước ở notebook main.ipynb
  - yolov8s.pt
  - (Tesla P40, 24446MiB)
  - 168 layers, 3005843 parameters, 0 gradients, 8.1 GFLOPs
- - Speed: 0.8ms preprocess, 51.1ms inference, 0.0ms loss, 2.8ms postprocess per image
- - 
+ - Speed: 0.8ms preprocess, 51.1ms inference, 0.0ms loss, 2.8ms postprocess per imag
+ -  
