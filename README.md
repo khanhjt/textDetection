@@ -16,7 +16,8 @@ Làm theo các bước ở notebook main.ipynb
     - Hiển thị từ 50 - 100 ảnh.
     - Xây dựng biểu đồ
 ## 1. Dataset
-- Dùng dataset của VinAI
+- Dùng dataset của VinAI - coco fomat
+- Data có 2000 ảnh, 
 - Xử lý và làm giàu đúng fomat input yolov8.
 - Cấu trúc thư mục
 
@@ -38,4 +39,9 @@ Làm theo các bước ở notebook main.ipynb
 ## Đánh giá
 ### 1. epochs = 3, batch = 16, imgsz = 1024
 ### 2. epochs = 5, batch = 16, imgsz = 1024
-### 3. epochs = 20, batch = 8, imgsz = 1024
+### 3. epochs = 20, batch = 8, imgsz = 1024 
+ - yolov8s.pt
+ - (Tesla P40, 24446MiB)
+ - 168 layers, 3005843 parameters, 0 gradients, 8.1 GFLOPs
+ - Speed: 0.8ms preprocess, 51.1ms inference, 0.0ms loss, 2.8ms postprocess per image
+ - 
